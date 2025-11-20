@@ -20,4 +20,4 @@ jobs:
           ls -l
           chmod 755 ./*
           ls -l
-          ./scripts/echodemo.sh
+          ./echodemo.sh
