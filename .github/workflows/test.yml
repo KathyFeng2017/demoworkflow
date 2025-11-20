@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Register contracts in Apicurio
+      - name: testflow
         run: |
           ./scripts/echodemo.sh
