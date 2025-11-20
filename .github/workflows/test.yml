@@ -16,4 +16,8 @@ jobs:
           whoami
           pwd
           ls -l
+          cd ./scripts
+          ls -l
+          chmod 755 ./*
+          ls -l
           ./scripts/echodemo.sh
