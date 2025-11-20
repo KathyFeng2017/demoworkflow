@@ -1,0 +1,16 @@
+name: demo
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  testdemo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Register contracts in Apicurio
+        run: |
+          ./scripts/echodemo.sh
